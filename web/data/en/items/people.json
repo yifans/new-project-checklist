@@ -1,21 +1,21 @@
 [
   {
-    "title": "团队成员",
+    "title": "Teammate",
     "priority": "High",
-    "description": "非技术问题找谁？",
+    "description": "",
     "subitems": [
       {
-        "title": "非技术问题找谁？"
+        "title": "Who are you looking for each problem?"
       },
       {
-        "title": "团队成员的技术栈及水平"
+        "title": "Team members' technical stack and level"
       },
       {
-        "title": "每个人的技术水平",
-        "description": "包含应该怎么带：Coach（教练式）, Pairing（结对式）, Teach（教学式）"
+        "title": "How to bring everyone's skill level",
+        "description": "Coach, Pairing, Teach"
       },
       {
-        "title": "项目无关的技术，可以找谁一起“娱乐”？"
+        "title": "Project-independent technology, who can find 'entertainment' together?"
       },
       {
         "title": "1 to 1 Meetings"
@@ -27,17 +27,17 @@
     ]
   },
   {
-    "title": "利益相关者",
+    "title": "Stakeholders",
     "priority": "Medium",
     "description": "",
     "subitems": [
       {
-        "title": "了解各个相关者（Level 1）",
-        "description": "如作为一个开发人员，大部分时间并不会和利益相关者有直接的沟通。"
+        "title": "Learn about each stakeholder (Level 1)",
+        "description": "As a developer, most of the time there is no direct communication with stakeholders."
       },
       {
-        "title": "和相关者保持沟通（Level 2）",
-        "description": "适当沟通，可以帮助项目更好地进行"
+        "title": "Stay in communication with the stakeholders (Level 2)",
+        "description": "Proper communication can help the project to work better."
       }
     ],
     "tags": [
@@ -46,15 +46,15 @@
     ]
   },
   {
-    "title": "跨团队协作",
+    "title": "Cross-team collaboration",
     "priority": "Medium",
     "description": "相关的合作方有哪些，各自的接口人是谁？",
     "subitems": [
       {
-        "title": "相关的合作方有哪些，各自的接口人是谁？"
+        "title": "What are the relevant partners and who are the respective interfaces?"
       },
       {
-        "title": "同组织、项目下的其它团队。"
+        "title": "Team in same project or organizations."
       }
     ],
     "tags": [
@@ -63,15 +63,15 @@
     ]
   },
   {
-    "title": "用户",
+    "title": "Users",
     "priority": "Low",
-    "description": "用户是谁？我们是否与他们直接接触？",
+    "description": "",
     "subitems": [
       {
-        "title": "用户是谁？我们是否与他们直接接触？"
+        "title": "Who is the user? Are we in direct contact with them?"
       },
       {
-        "title": "反馈环。一个用户的反馈是如何变成需求的？"
+        "title": "Feedback loop. How does a user's feedback become requirements?"
       }
     ],
     "tags": [
