@@ -5,16 +5,16 @@
     "description": "完成业务需求的基本流程",
     "subitems": [
       {
-        "title": "项目的 Roadmap",
-        "description": "项目 Deadline，关键时间节点，项目规划等"
+        "title": "Project's Roadmap? ",
+        "description": "Such as project deadline, milestone, plan (with interation plan)"
       },
       {
-        "title": "项目功能的生命周期",
-        "description": "如敏捷中的故事卡工作流"
+        "title": "features's lifecycle",
+        "description": "Such as Story card workflow in agile"
       },
       {
-        "title": "沟通方式?",
-        "description": "如 IM，邮件，还有敏捷的每日站会，远程会议，Retro 等"
+        "title": "How to communicate?",
+        "description": "Such as IM, Email and agile daily standup, remote meeting, Retro, etc."
       }
     ],
     "tags": ["all", "process"]
@@ -22,16 +22,16 @@
   {
     "title": "Path to Development",
     "priority": "High",
-    "description": "不同的的组织包含自身特别的情况，如 PC 端口、网络权限、代码库权限等的开通都需要一定的流程。",
+    "description": "different organizations have their own special situations, such as the opening of PC ports, network permissions, codebase permissions, etc., which require a certain process.",
     "subitems": [
       {
-        "title": "开发机申请及网络等权限准备"
+        "title": "development machine and network permission preparation and so on"
       },
       {
-        "title": "代码库权限管理"
+        "title": "code repositroy permission management"
       },
       {
-        "title": "编辑器和相关的工具申请"
+        "title": "editor and related tool application setup"
       }
     ],
     "tags": ["all", "process"]
@@ -39,20 +39,20 @@
   {
     "title": "Path to Production",
     "priority": "High",
-    "description": "代码中的 Path to Production 只是一份说明——针对于开发人员的，而这里的则需要一个更详细的说明。",
+    "description": "Path to Production in the code is just a description - [ ] for developers, and here's a more detailed explanation.",
     "subitems": [
       {
-        "title": "上线每一步的流程"
+        "title": "the process of golive's every step"
       },
       {
-        "title": "相关的关键人"
+        "title": "related key people"
       },
       {
-        "title": "每一步所需要的工具"
+        "title": "the tools needed for each step"
       },
       {
-        "title": "每一步所需要的流程",
-        "description": "如 QA 测试流程，上线流程"
+        "title": "the process required for each step",
+        "description": "such as quality assurance people & process, and golive process"
       }
     ],
     "tags": ["all", "process"]
@@ -60,7 +60,7 @@
   {
     "title": "Path to Roll Off",
     "priority": "Low",
-    "description": "换一个项目时，需要哪些东西？",
+    "description": "What do you need when you change a project？",
     "tags": ["all", "process"]
   }
 ]
