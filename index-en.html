@@ -38,9 +38,9 @@
     <meta name="msapplication-TileColor" content="#2b2b2b">
     <meta name="msapplication-TileImage" content="icons/mstile-144x144.png">
     <link rel="manifest" href="manifest.json">
-    <script>/*! modernizr 3.6.0 (Custom Build) | MIT *
+    <script>/*! modernizr 3.11.1 (Custom Build) | MIT *
  * https://modernizr.com/download/?-flexbox-history-webworkers-domprefixes-mq-prefixedcssvalue-prefixes-setclasses-teststyles !*/
-!function(e,n,t){function r(e,n){return typeof e===n}function o(){var e,n,t,o,i,s,a;for(var l in C)if(C.hasOwnProperty(l)){if(e=[],n=C[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(o=r(n.fn,"function")?n.fn():n.fn,i=0;i<e.length;i++)s=e[i],a=s.split("."),1===a.length?Modernizr[a[0]]=o:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=o),x.push((o?"":"no-")+a.join("-"))}}function i(e){var n=w.className,t=Modernizr._config.classPrefix||"";if(_&&(n=n.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),_?w.className.baseVal=n:w.className=n)}function s(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):_?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function a(){var e=n.body;return e||(e=s(_?"svg":"body"),e.fake=!0),e}function l(e,t,r,o){var i,l,u,f,d="modernizr",c=s("div"),p=a();if(parseInt(r,10))for(;r--;)u=s("div"),u.id=o?o[r]:d+(r+1),c.appendChild(u);return i=s("style"),i.type="text/css",i.id="s"+d,(p.fake?p:c).appendChild(i),p.appendChild(c),i.styleSheet?i.styleSheet.cssText=e:i.appendChild(n.createTextNode(e)),c.id=d,p.fake&&(p.style.background="",p.style.overflow="hidden",f=w.style.overflow,w.style.overflow="hidden",w.appendChild(p)),l=t(c,e),p.fake?(p.parentNode.removeChild(p),w.style.overflow=f,w.offsetHeight):c.parentNode.removeChild(c),!!l}function u(e,n){return!!~(""+e).indexOf(n)}function f(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(n,t,r){var o;if("getComputedStyle"in e){o=getComputedStyle.call(e,n,t);var i=e.console;if(null!==o)r&&(o=o.getPropertyValue(r));else if(i){var s=i.error?"error":"log";i[s].call(i,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else o=!t&&n.currentStyle&&n.currentStyle[r];return o}function c(n,r){var o=n.length;if("CSS"in e&&"supports"in e.CSS){for(;o--;)if(e.CSS.supports(f(n[o]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var i=[];o--;)i.push("("+f(n[o])+":"+r+")");return i=i.join(" or "),l("@supports ("+i+") { #modernizr { position: absolute; } }",function(e){return"absolute"==d(e,null,"position")})}return t}function p(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function m(e,n,o,i){function a(){f&&(delete N.style,delete N.modElem)}if(i=r(i,"undefined")?!1:i,!r(o,"undefined")){var l=c(e,o);if(!r(l,"undefined"))return l}for(var f,d,m,v,y,h=["modernizr","tspan","samp"];!N.style&&h.length;)f=!0,N.modElem=s(h.shift()),N.style=N.modElem.style;for(m=e.length,d=0;m>d;d++)if(v=e[d],y=N.style[v],u(v,"-")&&(v=p(v)),N.style[v]!==t){if(i||r(o,"undefined"))return a(),"pfx"==n?v:!0;try{N.style[v]=o}catch(g){}if(N.style[v]!=y)return a(),"pfx"==n?v:!0}return a(),!1}function v(e,n){return function(){return e.apply(n,arguments)}}function y(e,n,t){var o;for(var i in e)if(e[i]in n)return t===!1?e[i]:(o=n[e[i]],r(o,"function")?v(o,t||n):o);return!1}function h(e,n,t,o,i){var s=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+k.join(s+" ")+s).split(" ");return r(n,"string")||r(n,"undefined")?m(a,n,o,i):(a=(e+" "+P.join(s+" ")+s).split(" "),y(a,n,t))}function g(e,n,r){return h(e,t,t,n,r)}var C=[],S={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){C.push({name:e,fn:n,options:t})},addAsyncTest:function(e){C.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var x=[],w=n.documentElement,_="svg"===w.nodeName.toLowerCase(),b="Moz O ms Webkit",P=S._config.usePrefixes?b.toLowerCase().split(" "):[];S._domPrefixes=P;var z=S._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];S._prefixes=z;var E=function(){var n=e.matchMedia||e.msMatchMedia;return n?function(e){var t=n(e);return t&&t.matches||!1}:function(n){var t=!1;return l("@media "+n+" { #modernizr { position: absolute; } }",function(n){t="absolute"==(e.getComputedStyle?e.getComputedStyle(n,null):n.currentStyle).position}),t}}();S.mq=E;var T=function(e,n){var t=!1,r=s("div"),o=r.style;if(e in o){var i=P.length;for(o[e]=n,t=o[e];i--&&!t;)o[e]="-"+P[i]+"-"+n,t=o[e]}return""===t&&(t=!1),t};S.prefixedCSSValue=T;S.testStyles=l;Modernizr.addTest("history",function(){var n=navigator.userAgent;return-1===n.indexOf("Android 2.")&&-1===n.indexOf("Android 4.0")||-1===n.indexOf("Mobile Safari")||-1!==n.indexOf("Chrome")||-1!==n.indexOf("Windows Phone")||"file:"===location.protocol?e.history&&"pushState"in e.history:!1});var k=S._config.usePrefixes?b.split(" "):[];S._cssomPrefixes=k;var A={elem:s("modernizr")};Modernizr._q.push(function(){delete A.elem});var N={style:A.elem.style};Modernizr._q.unshift(function(){delete N.style}),S.testAllProps=h,S.testAllProps=g,Modernizr.addTest("flexbox",g("flexBasis","1px",!0)),Modernizr.addTest("webworkers","Worker"in e),o(),i(x),delete S.addTest,delete S.addAsyncTest;for(var O=0;O<Modernizr._q.length;O++)Modernizr._q[O]();e.Modernizr=Modernizr}(window,document);
+!function(e,n,t,r){function o(e,n){return typeof e===n}function i(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):S?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function s(){var e=t.body;return e||(e=i(S?"svg":"body"),e.fake=!0),e}function a(e,n,r,o){var a,l,f,u,d="modernizr",c=i("div"),p=s();if(parseInt(r,10))for(;r--;)f=i("div"),f.id=o?o[r]:d+(r+1),c.appendChild(f);return a=i("style"),a.type="text/css",a.id="s"+d,(p.fake?p:c).appendChild(a),p.appendChild(c),a.styleSheet?a.styleSheet.cssText=e:a.appendChild(t.createTextNode(e)),c.id=d,p.fake&&(p.style.background="",p.style.overflow="hidden",u=w.style.overflow,w.style.overflow="hidden",w.appendChild(p)),l=n(c,e),p.fake?(p.parentNode.removeChild(p),w.style.overflow=u,w.offsetHeight):c.parentNode.removeChild(c),!!l}function l(e,t,r){var o;if("getComputedStyle"in n){o=getComputedStyle.call(n,e,t);var i=n.console;if(null!==o)r&&(o=o.getPropertyValue(r));else if(i){var s=i.error?"error":"log";i[s].call(i,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else o=!t&&e.currentStyle&&e.currentStyle[r];return o}function f(e,n){return!!~(""+e).indexOf(n)}function u(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(e,t){var o=e.length;if("CSS"in n&&"supports"in n.CSS){for(;o--;)if(n.CSS.supports(u(e[o]),t))return!0;return!1}if("CSSSupportsRule"in n){for(var i=[];o--;)i.push("("+u(e[o])+":"+t+")");return i=i.join(" or "),a("@supports ("+i+") { #modernizr { position: absolute; } }",function(e){return"absolute"===l(e,null,"position")})}return r}function c(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function p(e,n,t,s){function a(){u&&(delete A.style,delete A.modElem)}if(s=!o(s,"undefined")&&s,!o(t,"undefined")){var l=d(e,t);if(!o(l,"undefined"))return l}for(var u,p,m,v,h,y=["modernizr","tspan","samp"];!A.style&&y.length;)u=!0,A.modElem=i(y.shift()),A.style=A.modElem.style;for(m=e.length,p=0;p<m;p++)if(v=e[p],h=A.style[v],f(v,"-")&&(v=c(v)),A.style[v]!==r){if(s||o(t,"undefined"))return a(),"pfx"!==n||v;try{A.style[v]=t}catch(e){}if(A.style[v]!==h)return a(),"pfx"!==n||v}return a(),!1}function m(e,n){return function(){return e.apply(n,arguments)}}function v(e,n,t){var r;for(var i in e)if(e[i]in n)return!1===t?e[i]:(r=n[e[i]],o(r,"function")?m(r,t||n):r);return!1}function h(e,n,t,r,i){var s=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+T.join(s+" ")+s).split(" ");return o(n,"string")||o(n,"undefined")?p(a,n,r,i):(a=(e+" "+b.join(s+" ")+s).split(" "),v(a,n,t))}function y(e,n,t){return h(e,r,r,n,t)}var g=[],C={_version:"3.11.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){g.push({name:e,fn:n,options:t})},addAsyncTest:function(e){g.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=C,Modernizr=new Modernizr;var x=[],w=t.documentElement,S="svg"===w.nodeName.toLowerCase(),_="Moz O ms Webkit",b=C._config.usePrefixes?_.toLowerCase().split(" "):[];C._domPrefixes=b;var P=C._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];C._prefixes=P;var z=function(){var e=n.matchMedia||n.msMatchMedia;return e?function(n){var t=e(n);return t&&t.matches||!1}:function(e){var n=!1;return a("@media "+e+" { #modernizr { position: absolute; } }",function(e){n="absolute"===l(e,null,"position")}),n}}();C.mq=z;var E=function(e,n){var t=!1,r=i("div"),o=r.style;if(e in o){var s=b.length;for(o[e]=n,t=o[e];s--&&!t;)o[e]="-"+b[s]+"-"+n,t=o[e]}return""===t&&(t=!1),t};C.prefixedCSSValue=E;C.testStyles=a;Modernizr.addTest("history",function(){var e=navigator.userAgent;return!!e&&((-1===e.indexOf("Android 2.")&&-1===e.indexOf("Android 4.0")||-1===e.indexOf("Mobile Safari")||-1!==e.indexOf("Chrome")||-1!==e.indexOf("Windows Phone")||"file:"===location.protocol)&&(n.history&&"pushState"in n.history))});var T=C._config.usePrefixes?_.split(" "):[];C._cssomPrefixes=T;var k={elem:i("modernizr")};Modernizr._q.push(function(){delete k.elem});var A={style:k.elem.style};Modernizr._q.unshift(function(){delete A.style}),C.testAllProps=h,C.testAllProps=y,Modernizr.addTest("flexbox",y("flexBasis","1px",!0)),Modernizr.addTest("webworkers","Worker"in n),function(){var e,n,t,r,i,s,a;for(var l in g)if(g.hasOwnProperty(l)){if(e=[],n=g[l],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(r=o(n.fn,"function")?n.fn():n.fn,i=0;i<e.length;i++)s=e[i],a=s.split("."),1===a.length?Modernizr[a[0]]=r:(Modernizr[a[0]]&&(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean)||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=r),x.push((r?"":"no-")+a.join("-"))}}(),function(e){var n=w.className,t=Modernizr._config.classPrefix||"";if(S&&(n=n.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(e.length>0&&(n+=" "+t+e.join(" "+t)),S?w.className.baseVal=n:w.className=n)}(x),delete C.addTest,delete C.addAsyncTest;for(var N=0;N<Modernizr._q.length;N++)Modernizr._q[N]();e.Modernizr=Modernizr}(window,window,document);
     </script>
   </head>
   <body>
@@ -95,9 +95,6 @@
                 </li>
                 <li class="c-tag-filter__item">
                   <button class="js-filter-tag" data-tag="process">Process</button>
-                </li>
-                <li class="c-tag-filter__item">
-                  <button class="js-filter-tag" data-tag="vision">Vision</button>
                 </li>
                 <li class="c-tag-filter__item">
                   <button class="js-filter-tag" data-tag="technology">Technology</button>
@@ -162,7 +159,7 @@
                 <div class="s-checklist__body js-checklist-body" data-body-visibility="visible" aria-hidden="false">
                   <div class="c-checklist">
                     <ul class="c-checklist__list">
-                      <li class="c-checklist__item js-item  all vision " data-item-priority="high" data-item-id="0" data-item-check="false" data-item-dropdown="open" data-item-visible="true" aria-hidden="false">
+                      <li class="c-checklist__item js-item  all technology " data-item-priority="high" data-item-id="0" data-item-check="false" data-item-dropdown="open" data-item-visible="true" aria-hidden="false">
                         <div class="c-checklist__item__inner">
                           <div class="c-checklist__body">
                             <div class="c-checklist__column c-checklist__priority">
@@ -184,17 +181,11 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-0"><span class="label__title">Technology Vision: </span><span class="label__description">In terms of technology, what are we pursuing?</span></label>
+                              <label for="c-checklist__item-Technology-0"><span class="label__title">技術願景: </span><span class="label__description">在technology上，我們有什麼長遠的目標和追求？(例如架構支持T級日數據吞吐，完全自動化上線流程等)</span></label>
                               <div class="c-checklist__details js-details">
                                 <div class="c-checklist__documentation">
                                   <h4>Documentation</h4>
                                   <ul class="documentation__list">
-                                  </ul>
-                                </div>
-                                <div class="c-checklist__tools">
-                                  <h4>Tools</h4>
-                                  <ul class="documentation__list">
-                                    <li><a href="undefined" target="_blank" rel="noopener noreferrer"></a></li>
                                   </ul>
                                 </div>
                               </div>
@@ -211,7 +202,7 @@
                         </div>
                         <div class="c-tags">
                           <ul class="c-tags__list">
-                            <li class="c-tags__item">VISION</li>
+                            <li class="c-tags__item">TECHNOLOGY</li>
                           </ul>
                         </div>
                       </li>
@@ -237,7 +228,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-1"><span class="label__title">Documentation: </span><span class="label__description">a good documentation should be versionable.</span></label>
+                              <label for="c-checklist__item-Technology-1"><span class="label__title">文檔: </span><span class="label__description">文檔即代碼——好的文檔應該是版本管理的。</span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -254,7 +245,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="documentation" data-subsection-id="1" data-sub-id="item-1-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="文檔" data-subsection-id="1" data-sub-id="item-1-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-0" id="c-checklist__item-1-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -265,9 +256,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Path to Production<span class="description">aims to show the online process of the project in a visual way and optimize the bottleneck problems in the process.</span></span>
+                                </svg><span class="label__title">上線及發佈日記<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="documentation" data-subsection-id="1" data-sub-id="item-1-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="文檔" data-subsection-id="1" data-sub-id="item-1-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-1" id="c-checklist__item-1-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -278,9 +269,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">golive and release diary<span class="description"></span></span>
+                                </svg><span class="label__title">在technology上，我們有什麼長遠的目標和追求？(例如架構支持T級日數據吞吐，完全自動化上線流程等)<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="documentation" data-subsection-id="1" data-sub-id="item-1-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="文檔" data-subsection-id="1" data-sub-id="item-1-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-2" id="c-checklist__item-1-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -291,20 +282,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">other wikis and documentation<span class="description"></span></span>
-                              </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="documentation" data-subsection-id="1" data-sub-id="item-1-sub-3">
-                                <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-3" id="c-checklist__item-1-subitem-3"/>
-                                <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
-                                  <title>Check</title>
-                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
-                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg>
-                                <svg class="icon icon-checked" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
-                                  <title>Check</title>
-                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
-                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Development specification<span class="description"></span></span>
+                                </svg><span class="label__title">開發規範<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -337,7 +315,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-2"><span class="label__title">Architecture: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Technology-2"><span class="label__title">架構: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -354,7 +332,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="architecture" data-subsection-id="2" data-sub-id="item-2-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="架構" data-subsection-id="2" data-sub-id="item-2-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-0" id="c-checklist__item-2-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -365,9 +343,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">system architecture diagram<span class="description">such as C4Model mode</span></span>
+                                </svg><span class="label__title">系統相關的架構圖，如 C4Model 方式描述<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="architecture" data-subsection-id="2" data-sub-id="item-2-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="架構" data-subsection-id="2" data-sub-id="item-2-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-1" id="c-checklist__item-2-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -378,7 +356,20 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">existing technology stacks and their relationships<span class="description"></span></span>
+                                </svg><span class="label__title">現有的技術棧及其關係<span class="description"></span></span>
+                              </li>
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="架構" data-subsection-id="2" data-sub-id="item-2-sub-2">
+                                <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-2" id="c-checklist__item-2-subitem-2"/>
+                                <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg>
+                                <svg class="icon icon-checked" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg><span class="label__title">架構決策記錄每次架構的改變。放置在代碼庫中<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -411,7 +402,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-3"><span class="label__title">Code base: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Technology-3"><span class="label__title">代碼庫: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -428,7 +419,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="code base" data-subsection-id="3" data-sub-id="item-3-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="代碼庫" data-subsection-id="3" data-sub-id="item-3-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-0" id="c-checklist__item-3-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -439,9 +430,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">setup guide<span class="description">Which is README distributed with the code.</span></span>
+                                </svg><span class="label__title">搭建指南。即 README<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="code base" data-subsection-id="3" data-sub-id="item-3-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="代碼庫" data-subsection-id="3" data-sub-id="item-3-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-1" id="c-checklist__item-3-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -452,9 +443,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">architecture decision record<span class="description">in docs/ard directory.</span></span>
+                                </svg><span class="label__title">編輯器配置，開發工具和環境配置方法。<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="code base" data-subsection-id="3" data-sub-id="item-3-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="代碼庫" data-subsection-id="3" data-sub-id="item-3-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-2" id="c-checklist__item-3-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -465,9 +456,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">editor configuration and code style specification<span class="description">Use tools like 'editorconfig' to standardize the code, and 'Lint' to analyze the code.</span></span>
+                                </svg><span class="label__title">代碼規範code conventions<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="code base" data-subsection-id="3" data-sub-id="item-3-sub-3">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="代碼庫" data-subsection-id="3" data-sub-id="item-3-sub-3">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-3" id="c-checklist__item-3-subitem-3"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -478,9 +469,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">mode and style guide<span class="description">Integrate system architecture into the project with clear guidance such as 'clean architecture and style'</span></span>
+                                </svg><span class="label__title">分支管理模式(GitFlow 或者 master，或者 Feature Branch<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="code base" data-subsection-id="3" data-sub-id="item-3-sub-4">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="代碼庫" data-subsection-id="3" data-sub-id="item-3-sub-4">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-4" id="c-checklist__item-3-subitem-4"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -491,20 +482,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">version manager branch pattern.<span class="description">GitFlow or Feature Branch of Master Flow</span></span>
-                              </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="code base" data-subsection-id="3" data-sub-id="item-3-sub-5">
-                                <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-5" id="c-checklist__item-3-subitem-5"/>
-                                <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
-                                  <title>Check</title>
-                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
-                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg>
-                                <svg class="icon icon-checked" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
-                                  <title>Check</title>
-                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
-                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">commit message style<span class="description">open source library style or business style</span></span>
+                                </svg><span class="label__title">commit comment風格（業務風格或者是開源軟體風格<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -537,7 +515,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-4"><span class="label__title">Testing: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Technology-4"><span class="label__title">測試: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -554,7 +532,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="testing" data-subsection-id="4" data-sub-id="item-4-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="測試" data-subsection-id="4" data-sub-id="item-4-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-4-subitem-0" id="c-checklist__item-4-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -565,9 +543,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">test strategy<span class="description">test layered, test pyramid</span></span>
+                                </svg><span class="label__title">測試策略对应的測試層級或測試金字塔<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="testing" data-subsection-id="4" data-sub-id="item-4-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="測試" data-subsection-id="4" data-sub-id="item-4-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-4-subitem-1" id="c-checklist__item-4-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -578,7 +556,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">test automation<span class="description"></span></span>
+                                </svg><span class="label__title">自動化測試程度<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -611,7 +589,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-5"><span class="label__title">Project Evolution: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Technology-5"><span class="label__title">專案演進: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -628,7 +606,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="project evolution" data-subsection-id="5" data-sub-id="item-5-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="專案演進" data-subsection-id="5" data-sub-id="item-5-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-5-subitem-0" id="c-checklist__item-5-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -639,9 +617,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Technical risk<span class="description">Need to spike before project start</span></span>
+                                </svg><span class="label__title">技術風險點。即需要提前 spike 調研的內容<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="project evolution" data-subsection-id="5" data-sub-id="item-5-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="專案演進" data-subsection-id="5" data-sub-id="item-5-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-5-subitem-1" id="c-checklist__item-5-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -652,9 +630,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">future technology stack<span class="description"></span></span>
+                                </svg><span class="label__title">未來的技術棧<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="project evolution" data-subsection-id="5" data-sub-id="item-5-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="專案演進" data-subsection-id="5" data-sub-id="item-5-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-5-subitem-2" id="c-checklist__item-5-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -665,7 +643,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">system evolution plan<span class="description"></span></span>
+                                </svg><span class="label__title">系統的演進方案<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -698,7 +676,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-6"><span class="label__title">Security: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Technology-6"><span class="label__title">安全: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -715,7 +693,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="security" data-subsection-id="6" data-sub-id="item-6-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="安全" data-subsection-id="6" data-sub-id="item-6-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-6-subitem-0" id="c-checklist__item-6-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -726,9 +704,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">security standard<span class="description">Is safety more important, or is the experience more important?</span></span>
+                                </svg><span class="label__title">安全標準，例如關於IT環境和數據<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="security" data-subsection-id="6" data-sub-id="item-6-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="安全" data-subsection-id="6" data-sub-id="item-6-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-6-subitem-1" id="c-checklist__item-6-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -739,9 +717,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">data encrypt in the code.<span class="description"></span></span>
+                                </svg><span class="label__title">代碼中的資料加密<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="security" data-subsection-id="6" data-sub-id="item-6-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="安全" data-subsection-id="6" data-sub-id="item-6-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-6-subitem-2" id="c-checklist__item-6-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -752,7 +730,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">code security<span class="description"></span></span>
+                                </svg><span class="label__title">代碼安全<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -785,7 +763,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Technology-7"><span class="label__title">Quality: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Technology-7"><span class="label__title">品質: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -802,7 +780,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="quality" data-subsection-id="7" data-sub-id="item-7-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="品質" data-subsection-id="7" data-sub-id="item-7-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-7-subitem-0" id="c-checklist__item-7-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -813,9 +791,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">project quality tracking<span class="description"></span></span>
+                                </svg><span class="label__title">專案品質跟蹤<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="quality" data-subsection-id="7" data-sub-id="item-7-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="品質" data-subsection-id="7" data-sub-id="item-7-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-7-subitem-1" id="c-checklist__item-7-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -826,9 +804,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">visualization of code quality<span class="description"></span></span>
+                                </svg><span class="label__title">代碼品質視覺化<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="quality" data-subsection-id="7" data-sub-id="item-7-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="品質" data-subsection-id="7" data-sub-id="item-7-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-7-subitem-2" id="c-checklist__item-7-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -839,7 +817,20 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">quality strategy<span class="description"></span></span>
+                                </svg><span class="label__title">應用品質策略<span class="description"></span></span>
+                              </li>
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="品質" data-subsection-id="7" data-sub-id="item-7-sub-3">
+                                <input type="checkbox" data-type="subitem" name="c-checklist__item-7-subitem-3" id="c-checklist__item-7-subitem-3"/>
+                                <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg>
+                                <svg class="icon icon-checked" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg><span class="label__title">演進品質(可測試性、可維護性、可擴展性、可伸縮性)<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -933,7 +924,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-People-0"><span class="label__title">Teammate: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-People-0"><span class="label__title">團隊成員: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -950,7 +941,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="teammate" data-subsection-id="0" data-sub-id="item-0-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="團隊成員" data-subsection-id="0" data-sub-id="item-0-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-0" id="c-checklist__item-0-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -961,9 +952,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Who are you looking for each problem?<span class="description"></span></span>
+                                </svg><span class="label__title">非技術問題找誰？<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="teammate" data-subsection-id="0" data-sub-id="item-0-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="團隊成員" data-subsection-id="0" data-sub-id="item-0-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-1" id="c-checklist__item-0-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -974,9 +965,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Team members' technical stack and level<span class="description"></span></span>
+                                </svg><span class="label__title">團隊成員的技術棧及水準<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="teammate" data-subsection-id="0" data-sub-id="item-0-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="團隊成員" data-subsection-id="0" data-sub-id="item-0-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-2" id="c-checklist__item-0-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -987,9 +978,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">How to bring everyone's skill level<span class="description">Coach, Pairing, Teach</span></span>
+                                </svg><span class="label__title">應該怎麼帶提高每個人的level：Coach（教練式）, Pairing（結對式）, Teach（教學式）<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="teammate" data-subsection-id="0" data-sub-id="item-0-sub-3">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="團隊成員" data-subsection-id="0" data-sub-id="item-0-sub-3">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-3" id="c-checklist__item-0-subitem-3"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1000,9 +991,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Project-independent technology, who can find 'entertainment' together?<span class="description"></span></span>
+                                </svg><span class="label__title">專案無關的技術，可以找誰一起做技術上的探索？<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="teammate" data-subsection-id="0" data-sub-id="item-0-sub-4">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="團隊成員" data-subsection-id="0" data-sub-id="item-0-sub-4">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-4" id="c-checklist__item-0-subitem-4"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1013,7 +1004,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">1 to 1 Meetings<span class="description"></span></span>
+                                </svg><span class="label__title">1-on-1 coaching的安排<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1024,11 +1015,11 @@
                           </ul>
                         </div>
                       </li>
-                      <li class="c-checklist__item js-item  all people " data-item-priority="medium" data-item-id="1" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
+                      <li class="c-checklist__item js-item  all people " data-item-priority="high" data-item-id="1" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
                         <div class="c-checklist__item__inner">
                           <div class="c-checklist__body">
                             <div class="c-checklist__column c-checklist__priority">
-                              <svg class="icon icon--small icon-priority--medium" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="Medium priority item" data-icon-name="bullet">
+                              <svg class="icon icon--small icon-priority--high" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="High priority item" data-icon-name="bullet">
                                 <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
                               </svg>
                             </div>
@@ -1046,7 +1037,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-People-1"><span class="label__title">Stakeholders: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-People-1"><span class="label__title">利益相關者: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1063,7 +1054,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="stakeholders" data-subsection-id="1" data-sub-id="item-1-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="利益相關者" data-subsection-id="1" data-sub-id="item-1-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-0" id="c-checklist__item-1-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1074,9 +1065,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Learn about each stakeholder (Level 1)<span class="description">As a developer, most of the time there is no direct communication with stakeholders.</span></span>
+                                </svg><span class="label__title">需要瞭解的相關者（Level 1）。如作為一個開發人員，大部分時間並不會和某些利益相關者有直接的溝通。<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="stakeholders" data-subsection-id="1" data-sub-id="item-1-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="利益相關者" data-subsection-id="1" data-sub-id="item-1-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-1" id="c-checklist__item-1-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1087,7 +1078,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Stay in communication with the stakeholders (Level 2)<span class="description">Proper communication can help the project to work better.</span></span>
+                                </svg><span class="label__title">需要保持溝通的相關者（Level 2）。適當溝通，可以幫助項目更好地進行。<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1098,11 +1089,11 @@
                           </ul>
                         </div>
                       </li>
-                      <li class="c-checklist__item js-item  all people " data-item-priority="medium" data-item-id="2" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
+                      <li class="c-checklist__item js-item  all people " data-item-priority="high" data-item-id="2" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
                         <div class="c-checklist__item__inner">
                           <div class="c-checklist__body">
                             <div class="c-checklist__column c-checklist__priority">
-                              <svg class="icon icon--small icon-priority--medium" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="Medium priority item" data-icon-name="bullet">
+                              <svg class="icon icon--small icon-priority--high" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="High priority item" data-icon-name="bullet">
                                 <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
                               </svg>
                             </div>
@@ -1120,7 +1111,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-People-2"><span class="label__title">Cross-team collaboration: </span><span class="label__description">相关的合作方有哪些，各自的接口人是谁？</span></label>
+                              <label for="c-checklist__item-People-2"><span class="label__title">跨團隊協作: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1137,7 +1128,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="cross-team collaboration" data-subsection-id="2" data-sub-id="item-2-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="跨團隊協作" data-subsection-id="2" data-sub-id="item-2-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-0" id="c-checklist__item-2-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1148,9 +1139,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">What are the relevant partners and who are the respective interfaces?<span class="description"></span></span>
+                                </svg><span class="label__title">相關的合作方有哪些，各自的contact window是誰？<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="cross-team collaboration" data-subsection-id="2" data-sub-id="item-2-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="跨團隊協作" data-subsection-id="2" data-sub-id="item-2-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-1" id="c-checklist__item-2-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1161,7 +1152,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Team in same project or organizations.<span class="description"></span></span>
+                                </svg><span class="label__title">同組織或者專案下的其它團隊。<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1172,11 +1163,11 @@
                           </ul>
                         </div>
                       </li>
-                      <li class="c-checklist__item js-item  all people " data-item-priority="low" data-item-id="3" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
+                      <li class="c-checklist__item js-item  all people " data-item-priority="high" data-item-id="3" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
                         <div class="c-checklist__item__inner">
                           <div class="c-checklist__body">
                             <div class="c-checklist__column c-checklist__priority">
-                              <svg class="icon icon--small icon-priority--low" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="Low priority item" data-icon-name="bullet">
+                              <svg class="icon icon--small icon-priority--high" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="High priority item" data-icon-name="bullet">
                                 <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
                               </svg>
                             </div>
@@ -1194,7 +1185,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-People-3"><span class="label__title">Users: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-People-3"><span class="label__title">用戶: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1211,7 +1202,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="users" data-subsection-id="3" data-sub-id="item-3-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="用戶" data-subsection-id="3" data-sub-id="item-3-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-0" id="c-checklist__item-3-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1222,9 +1213,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Who is the user? Are we in direct contact with them?<span class="description"></span></span>
+                                </svg><span class="label__title">用戶有哪些？我們是否與他們直接接觸？<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="users" data-subsection-id="3" data-sub-id="item-3-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="用戶" data-subsection-id="3" data-sub-id="item-3-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-3-subitem-1" id="c-checklist__item-3-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1235,7 +1226,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Feedback loop. How does a user's feedback become requirements?<span class="description"></span></span>
+                                </svg><span class="label__title">回饋閉環。一個用戶的回饋是經過哪些步驟變成需求的？<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1329,7 +1320,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Process-0"><span class="label__title">Project Process: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Process-0"><span class="label__title">產品開發: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1346,7 +1337,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="project process" data-subsection-id="0" data-sub-id="item-0-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="產品開發" data-subsection-id="0" data-sub-id="item-0-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-0" id="c-checklist__item-0-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1357,9 +1348,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Project's Roadmap? <span class="description">Such as project deadline, milestone, plan (with interation plan)</span></span>
+                                </svg><span class="label__title">產品的 Roadmap(關鍵時間節點，專案規劃等)<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="project process" data-subsection-id="0" data-sub-id="item-0-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="產品開發" data-subsection-id="0" data-sub-id="item-0-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-1" id="c-checklist__item-0-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1370,9 +1361,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">features's lifecycle<span class="description">Such as Story card workflow in agile</span></span>
+                                </svg><span class="label__title">產品功能的生命週期。如敏捷中的story card工作流<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="project process" data-subsection-id="0" data-sub-id="item-0-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="產品開發" data-subsection-id="0" data-sub-id="item-0-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-2" id="c-checklist__item-0-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1383,7 +1374,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">How to communicate?<span class="description">Such as IM, Email and agile daily standup, remote meeting, Retro, etc.</span></span>
+                                </svg><span class="label__title">溝通方式(如 IM，郵件，還有敏捷的每日站會，遠端會議，Retro 等)<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1416,7 +1407,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Process-1"><span class="label__title">Path to Development: </span><span class="label__description">different organizations have their own special situations, such as the opening of PC ports, network permissions, codebase permissions, etc., which require a certain process.</span></label>
+                              <label for="c-checklist__item-Process-1"><span class="label__title">Path to Development: </span><span class="label__description">不同的組織包含自身特別的情況，如 PC 埠、網路許可權、代碼庫許可權等的開通都需要一定的流程。</span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1444,7 +1435,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">development machine and network permission preparation and so on<span class="description"></span></span>
+                                </svg><span class="label__title">開發機申請及網路等許可權準備<span class="description"></span></span>
                               </li>
                               <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="path to development" data-subsection-id="1" data-sub-id="item-1-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-1" id="c-checklist__item-1-subitem-1"/>
@@ -1457,7 +1448,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">code repositroy permission management<span class="description"></span></span>
+                                </svg><span class="label__title">代碼庫許可權管理<span class="description"></span></span>
                               </li>
                               <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="path to development" data-subsection-id="1" data-sub-id="item-1-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-2" id="c-checklist__item-1-subitem-2"/>
@@ -1470,7 +1461,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">editor and related tool application setup<span class="description"></span></span>
+                                </svg><span class="label__title">編輯器和相關的工具申請<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1503,7 +1494,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Process-2"><span class="label__title">Path to Production: </span><span class="label__description">Path to Production in the code is just a description - [ ] for developers, and here's a more detailed explanation.</span></label>
+                              <label for="c-checklist__item-Process-2"><span class="label__title">Path to Production: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1531,7 +1522,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">the process of golive's every step<span class="description"></span></span>
+                                </svg><span class="label__title">上線每一步的流程<span class="description"></span></span>
                               </li>
                               <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="path to production" data-subsection-id="2" data-sub-id="item-2-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-1" id="c-checklist__item-2-subitem-1"/>
@@ -1544,7 +1535,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">related key people<span class="description"></span></span>
+                                </svg><span class="label__title">相關的關鍵人<span class="description"></span></span>
                               </li>
                               <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="path to production" data-subsection-id="2" data-sub-id="item-2-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-2" id="c-checklist__item-2-subitem-2"/>
@@ -1557,7 +1548,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">the tools needed for each step<span class="description"></span></span>
+                                </svg><span class="label__title">每一步所需要的工具<span class="description"></span></span>
                               </li>
                               <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="path to production" data-subsection-id="2" data-sub-id="item-2-sub-3">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-3" id="c-checklist__item-2-subitem-3"/>
@@ -1570,7 +1561,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">the process required for each step<span class="description">such as quality assurance people &amp; process, and golive process</span></span>
+                                </svg><span class="label__title">每一步的產出<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1581,11 +1572,11 @@
                           </ul>
                         </div>
                       </li>
-                      <li class="c-checklist__item js-item  all process " data-item-priority="low" data-item-id="3" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
+                      <li class="c-checklist__item js-item  all process " data-item-priority="high" data-item-id="3" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
                         <div class="c-checklist__item__inner">
                           <div class="c-checklist__body">
                             <div class="c-checklist__column c-checklist__priority">
-                              <svg class="icon icon--small icon-priority--low" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="Low priority item" data-icon-name="bullet">
+                              <svg class="icon icon--small icon-priority--high" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="High priority item" data-icon-name="bullet">
                                 <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
                               </svg>
                             </div>
@@ -1603,7 +1594,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Process-3"><span class="label__title">Path to Roll Off: </span><span class="label__description">What do you need when you change a project？</span></label>
+                              <label for="c-checklist__item-Process-3"><span class="label__title">Path to Roll Off: </span><span class="label__description"></span></label>
                             </div>
                             <div class="c-checklist__column c-checklist__dropdown">
                             </div>
@@ -1698,11 +1689,51 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Business-0"><span class="label__title">Business Vision: </span><span class="label__description">What are we doing, where are we going?</span></label>
+                              <label for="c-checklist__item-Business-0"><span class="label__title">業務願景: </span><span class="label__description">我們在解決什麼業務問題，我們要達到怎樣的目標？</span></label>
+                              <div class="c-checklist__details js-details">
+                              </div>
                             </div>
                             <div class="c-checklist__column c-checklist__dropdown">
+                              <button class="button-icon js-dropdown c-checklist__dropdown__button" aria-label="Open the description section">
+                                <svg class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 98.148 98.149" aria-hidden="true" data-icon-name="arrow">
+                                  <title>Arrow</title>
+                                  <path d="M97.562 64.692L50.49 17.618c-.75-.75-2.078-.75-2.828 0L.586 64.693C.21 65.068 0 65.577 0 66.106c0 .53.21 1.04.586 1.414l12.987 12.987c.39.39.902.586 1.414.586.512 0 1.023-.195 1.414-.586l32.675-32.674L81.75 80.506c.75.75 2.078.75 2.828 0L97.562 67.52c.782-.78.782-2.048 0-2.828z"></path>
+                                </svg>
+                              </button>
                             </div>
                           </div>
+                        </div>
+                        <div class="c-checklist__subitems">
+                          <section class="c-checklist__body">
+                            <ul class="subitems__list">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="業務願景" data-subsection-id="0" data-sub-id="item-0-sub-0">
+                                <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-0" id="c-checklist__item-0-subitem-0"/>
+                                <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg>
+                                <svg class="icon icon-checked" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg><span class="label__title">業務目前的關鍵流程，每個步驟的參與者，需做的決策，關鍵KPI<span class="description"></span></span>
+                              </li>
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="業務願景" data-subsection-id="0" data-sub-id="item-0-sub-1">
+                                <input type="checkbox" data-type="subitem" name="c-checklist__item-0-subitem-1" id="c-checklist__item-0-subitem-1"/>
+                                <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg>
+                                <svg class="icon icon-checked" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
+                                  <title>Check</title>
+                                  <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
+                                  <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
+                                </svg><span class="label__title">流程中的痛點，已經總結痛點後的詳細問題定義<span class="description"></span></span>
+                              </li>
+                            </ul>
+                          </section>
                         </div>
                         <div class="c-tags">
                           <ul class="c-tags__list">
@@ -1710,11 +1741,11 @@
                           </ul>
                         </div>
                       </li>
-                      <li class="c-checklist__item js-item  all domain " data-item-priority="medium" data-item-id="1" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
+                      <li class="c-checklist__item js-item  all domain " data-item-priority="high" data-item-id="1" data-item-check="false" data-item-dropdown="false" data-item-visible="true" aria-hidden="false">
                         <div class="c-checklist__item__inner">
                           <div class="c-checklist__body">
                             <div class="c-checklist__column c-checklist__priority">
-                              <svg class="icon icon--small icon-priority--medium" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="Medium priority item" data-icon-name="bullet">
+                              <svg class="icon icon--small icon-priority--high" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" aria-label="High priority item" data-icon-name="bullet">
                                 <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
                               </svg>
                             </div>
@@ -1732,7 +1763,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Business-1"><span class="label__title">Business: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Business-1"><span class="label__title">業務需求: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1749,7 +1780,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="business" data-subsection-id="1" data-sub-id="item-1-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="業務需求" data-subsection-id="1" data-sub-id="item-1-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-0" id="c-checklist__item-1-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1760,9 +1791,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Requirements list<span class="description">Is there a list of requirements that are close to full? At a certain time (such as iterations), the demand should be stable.</span></span>
+                                </svg><span class="label__title">有沒有較全的待辦列表。在一定的時間（如反覆運算內），需求應該是穩定的<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="business" data-subsection-id="1" data-sub-id="item-1-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="業務需求" data-subsection-id="1" data-sub-id="item-1-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-1" id="c-checklist__item-1-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1773,9 +1804,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Requirements Management<span class="description">How does demand go from verbal to to-do list? Is there an irregular problem in the middle?</span></span>
+                                </svg><span class="label__title">需求是如何從口頭到待辦列表的？中間是不是存在不規範的問題<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="business" data-subsection-id="1" data-sub-id="item-1-sub-2">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="業務需求" data-subsection-id="1" data-sub-id="item-1-sub-2">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-1-subitem-2" id="c-checklist__item-1-subitem-2"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1786,7 +1817,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">How is the business changed?<span class="description"></span></span>
+                                </svg><span class="label__title">業務是如何進行變更的？<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1819,7 +1850,7 @@
                               </svg>
                             </div>
                             <div class="c-checklist__column c-checklist__label">
-                              <label for="c-checklist__item-Business-2"><span class="label__title">Cross-functional requirements: </span><span class="label__description"></span></label>
+                              <label for="c-checklist__item-Business-2"><span class="label__title">跨功能需求: </span><span class="label__description"></span></label>
                               <div class="c-checklist__details js-details">
                               </div>
                             </div>
@@ -1836,7 +1867,7 @@
                         <div class="c-checklist__subitems">
                           <section class="c-checklist__body">
                             <ul class="subitems__list">
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="cross-functional requirements" data-subsection-id="2" data-sub-id="item-2-sub-0">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="跨功能需求" data-subsection-id="2" data-sub-id="item-2-sub-0">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-0" id="c-checklist__item-2-subitem-0"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1847,9 +1878,9 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Operational quality<span class="description">Quality observed during system operation, such as security and ease of use</span></span>
+                                </svg><span class="label__title">運行品質。在系統運作時觀察到的品質，例如相應速度及易用性等<span class="description"></span></span>
                               </li>
-                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="cross-functional requirements" data-subsection-id="2" data-sub-id="item-2-sub-1">
+                              <li class="c-checklist__column c-checklist__subitem js-sub-section" data-subitem-check="false" data-section="跨功能需求" data-subsection-id="2" data-sub-id="item-2-sub-1">
                                 <input type="checkbox" data-type="subitem" name="c-checklist__item-2-subitem-1" id="c-checklist__item-2-subitem-1"/>
                                 <svg class="icon icon-checkbox" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="-432 234 94 94" aria-hidden="true" data-icon-name="check">
                                   <title>Check</title>
@@ -1860,7 +1891,7 @@
                                   <title>Check</title>
                                   <path d="M-349 245v72h-72v-72h72m5-11h-82c-3.3 0-6 2.7-6 6v82c0 3.3 2.7 6 6 6h82c3.3 0 6-2.7 6-6v-82c0-3.3-2.7-6-6-6z"></path>
                                   <path class="path-check" d="M-349.2 261.1l-7.2-7.2c-.8-.8-2-.8-2.8 0l-37.3 37.3-13.3-13.3c-.8-.8-2-.8-2.8 0l-7.2 7.2c-.4.4-.6.9-.6 1.4s.2 1 .6 1.4l21.9 21.9c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6l45.9-45.9c.4-.4.6-.9.6-1.4 0-.5-.2-1-.6-1.4z"></path>
-                                </svg><span class="label__title">Evolution quality<span class="description">Software system structure and quality related to the development process, such as software testability, maintainability, scalability, scalability, etc.</span></span>
+                                </svg><span class="label__title">用戶行為埋點數據收集的監測系統<span class="description"></span></span>
                               </li>
                             </ul>
                           </section>
@@ -1927,17 +1958,17 @@
                       <li class="c-notation__details__item js-detail-high">
                         <svg class="icon icon--small icon-priority--high" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" data-icon-name="bullet">
                           <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
-                        </svg><span class="js-notation-checked">0</span>/<span class="js-notation-total">14</span>&nbsp;✓ high priority
+                        </svg><span class="js-notation-checked">0</span>/<span class="js-notation-total">19</span>&nbsp;✓ high priority
                       </li>
                       <li class="c-notation__details__item js-detail-medium">
                         <svg class="icon icon--small icon-priority--medium" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" data-icon-name="bullet">
                           <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
-                        </svg><span class="js-notation-checked">0</span>/<span class="js-notation-total">3</span>&nbsp;✓ medium priority
+                        </svg><span class="js-notation-checked">0</span>/<span class="js-notation-total">0</span>&nbsp;✓ medium priority
                       </li>
                       <li class="c-notation__details__item js-detail-low">
                         <svg class="icon icon--small icon-priority--low" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 510 510" aria-hidden="true" data-icon-name="bullet">
                           <path d="M255 0C114.75 0 0 114.75 0 255s114.75 255 255 255 255-114.75 255-255S395.25 0 255 0z"></path>
-                        </svg><span class="js-notation-checked">0</span>/<span class="js-notation-total">2</span>&nbsp;✓ low priority
+                        </svg><span class="js-notation-checked">0</span>/<span class="js-notation-total">0</span>&nbsp;✓ low priority
                       </li>
                     </ul>
                   </div>
