@@ -26,7 +26,7 @@
   },
   {
     "title": "利益相關者",
-    "priority": "High",
+    "priority": "Medium",
     "subitems": [
       {
         "title": "需要瞭解的相關者（Level 1）。如作為一個開發人員，大部分時間並不會和某些利益相關者有直接的溝通。"
@@ -42,7 +42,7 @@
   },
   {
     "title": "跨團隊協作",
-    "priority": "High",
+    "priority": "Medium",
     "subitems": [
       {
         "title": "相關的合作方有哪些，各自的contact window是誰？"
@@ -58,7 +58,7 @@
   },
   {
     "title": "用戶",
-    "priority": "High",
+    "priority": "Low",
     "subitems": [
       {
         "title": "用戶有哪些？我們是否與他們直接接觸？"

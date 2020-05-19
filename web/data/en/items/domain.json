@@ -31,7 +31,7 @@
   },
   {
     "title": "跨功能需求",
-    "priority": "High",
+    "priority": "Medium",
     "subitems": [
       {
         "title": "運行品質。在系統運作時觀察到的品質，例如相應速度及易用性等"
