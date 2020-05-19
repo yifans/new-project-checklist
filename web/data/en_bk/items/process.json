@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Project Process",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "Project's Roadmap? ",
+        "description": "Such as project deadline, milestone, plan (with interation plan)"
+      },
+      {
+        "title": "features's lifecycle",
+        "description": "Such as Story card workflow in agile"
+      },
+      {
+        "title": "How to communicate?",
+        "description": "Such as IM, Email and agile daily standup, remote meeting, Retro, etc."
+      }
+    ],
+    "tags": ["all", "process"]
+  },
+  {
+    "title": "Path to Development",
+    "priority": "High",
+    "description": "different organizations have their own special situations, such as the opening of PC ports, network permissions, codebase permissions, etc., which require a certain process.",
+    "subitems": [
+      {
+        "title": "development machine and network permission preparation and so on"
+      },
+      {
+        "title": "code repositroy permission management"
+      },
+      {
+        "title": "editor and related tool application setup"
+      }
+    ],
+    "tags": ["all", "process"]
+  },
+  {
+    "title": "Path to Production",
+    "priority": "High",
+    "description": "Path to Production in the code is just a description - [ ] for developers, and here's a more detailed explanation.",
+    "subitems": [
+      {
+        "title": "the process of golive's every step"
+      },
+      {
+        "title": "related key people"
+      },
+      {
+        "title": "the tools needed for each step"
+      },
+      {
+        "title": "the process required for each step",
+        "description": "such as quality assurance people & process, and golive process"
+      }
+    ],
+    "tags": ["all", "process"]
+  },
+  {
+    "title": "Path to Roll Off",
+    "priority": "Low",
+    "description": "What do you need when you change a project？",
+    "tags": ["all", "process"]
+  }
+]

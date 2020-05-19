@@ -1,38 +1,49 @@
 [
   {
-    "title": "Technology Vision",
+    "title": "技術願景",
     "priority": "High",
-    "description": "In terms of technology, what are we pursuing?",
-    "tools": [
-      "Lean Canvas"
-    ],
+    "description": "在technology上，我們有什麼長遠的目標和追求？(例如架構支持T級日數據吞吐，完全自動化上線流程等)",
     "documentation": [
     ],
     "tags": [
       "all",
-      "vision"
+      "technology"
     ]
   },
   {
-    "title": "Documentation",
+    "title": "文檔",
     "priority": "High",
-    "description": "a good documentation should be versionable.",
+    "description": "文檔即代碼——好的文檔應該是版本管理的。",
     "subitems": [
       {
-        "title": "Path to Production",
-        "description": "aims to show the online process of the project in a visual way and optimize the bottleneck problems in the process."
+        "title": "上線及發佈日記"
       },
       {
-        "title": "golive and release diary",
+        "title": "在technology上，我們有什麼長遠的目標和追求？(例如架構支持T級日數據吞吐，完全自動化上線流程等)"
+      },
+      {
+        "title": "開發規範"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "架構",
+    "priority": "High",
+    "subitems": [
+      {
+        "title": "系統相關的架構圖，如 C4Model 方式描述",
         "description": ""
       },
       {
-        "title": "other wikis and documentation",
+        "title": "現有的技術棧及其關係",
         "description": ""
       },
       {
-        "title": "Development specification",
-        "description": ""
+        "title": "架構決策記錄每次架構的改變。放置在代碼庫中"
       }
     ],
     "tags": [
@@ -41,17 +52,23 @@
     ]
   },
   {
-    "title": "Architecture",
+    "title": "代碼庫",
     "priority": "High",
-    "description": "",
     "subitems": [
       {
-        "title": "system architecture diagram",
-        "description": "such as C4Model mode"
+        "title": "搭建指南。即 README"
       },
       {
-        "title": "existing technology stacks and their relationships",
-        "description": ""
+        "title": "編輯器配置，開發工具和環境配置方法。"
+      },
+      {
+        "title": "代碼規範code conventions"
+      },
+      {
+        "title": "分支管理模式(GitFlow 或者 master，或者 Feature Branch"
+      },
+      {
+        "title": "commit comment風格（業務風格或者是開源軟體風格"
       }
     ],
     "tags": [
@@ -60,33 +77,14 @@
     ]
   },
   {
-    "title": "Code base",
+    "title": "測試",
     "priority": "High",
-    "description": "",
     "subitems": [
       {
-        "title": "setup guide",
-        "description": "Which is README distributed with the code."
+        "title": "測試策略对应的測試層級或測試金字塔"
       },
       {
-        "title": "architecture decision record",
-        "description": "in docs/ard directory."
-      },
-      {
-        "title": "editor configuration and code style specification",
-        "description": "Use tools like 'editorconfig' to standardize the code, and 'Lint' to analyze the code."
-      },
-      {
-        "title": "mode and style guide",
-        "description": "Integrate system architecture into the project with clear guidance such as 'clean architecture and style'"
-      },
-      {
-        "title": "version manager branch pattern.",
-        "description": "GitFlow or Feature Branch of Master Flow"
-      },
-      {
-        "title": "commit message style",
-        "description": "open source library style or business style"
+        "title": "自動化測試程度"
       }
     ],
     "tags": [
@@ -95,16 +93,17 @@
     ]
   },
   {
-    "title": "Testing",
+    "title": "專案演進",
     "priority": "High",
-    "description": "",
     "subitems": [
       {
-        "title": "test strategy",
-        "description": "test layered, test pyramid"
+        "title": "技術風險點。即需要提前 spike 調研的內容"
       },
       {
-        "title": "test automation"
+        "title": "未來的技術棧"
+      },
+      {
+        "title": "系統的演進方案"
       }
     ],
     "tags": [
@@ -113,19 +112,17 @@
     ]
   },
   {
-    "title": "Project Evolution",
+    "title": "安全",
     "priority": "High",
-    "description": "",
     "subitems": [
       {
-        "title": "Technical risk",
-        "description": "Need to spike before project start"
+        "title": "安全標準，例如關於IT環境和數據"
       },
       {
-        "title": "future technology stack"
+        "title": "代碼中的資料加密"
       },
       {
-        "title": "system evolution plan"
+        "title": "代碼安全"
       }
     ],
     "tags": [
@@ -134,39 +131,21 @@
     ]
   },
   {
-    "title": "Security",
+    "title": "品質",
     "priority": "High",
     "description": "",
     "subitems": [
       {
-        "title": "security standard",
-        "description": "Is safety more important, or is the experience more important?"
+        "title": "專案品質跟蹤"
       },
       {
-        "title": "data encrypt in the code."
+        "title": "代碼品質視覺化"
       },
       {
-        "title": "code security"
-      }
-    ],
-    "tags": [
-      "all",
-      "technology"
-    ]
-  },
-  {
-    "title": "Quality",
-    "priority": "High",
-    "description": "",
-    "subitems": [
-      {
-        "title": "project quality tracking"
+        "title": "應用品質策略"
       },
       {
-        "title": "visualization of code quality"
-      },
-      {
-        "title": "quality strategy"
+        "title": "演進品質(可測試性、可維護性、可擴展性、可伸縮性)"
       }
     ],
     "tags": [

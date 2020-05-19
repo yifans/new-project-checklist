@@ -1,20 +1,16 @@
 [
   {
-    "title": "Project Process",
+    "title": "產品開發",
     "priority": "High",
-    "description": "",
     "subitems": [
       {
-        "title": "Project's Roadmap? ",
-        "description": "Such as project deadline, milestone, plan (with interation plan)"
+        "title": "產品的 Roadmap(關鍵時間節點，專案規劃等)"
       },
       {
-        "title": "features's lifecycle",
-        "description": "Such as Story card workflow in agile"
+        "title": "產品功能的生命週期。如敏捷中的story card工作流"
       },
       {
-        "title": "How to communicate?",
-        "description": "Such as IM, Email and agile daily standup, remote meeting, Retro, etc."
+        "title": "溝通方式(如 IM，郵件，還有敏捷的每日站會，遠端會議，Retro 等)"
       }
     ],
     "tags": ["all", "process"]
@@ -22,16 +18,16 @@
   {
     "title": "Path to Development",
     "priority": "High",
-    "description": "different organizations have their own special situations, such as the opening of PC ports, network permissions, codebase permissions, etc., which require a certain process.",
+    "description": "不同的組織包含自身特別的情況，如 PC 埠、網路許可權、代碼庫許可權等的開通都需要一定的流程。",
     "subitems": [
       {
-        "title": "development machine and network permission preparation and so on"
+        "title": "開發機申請及網路等許可權準備"
       },
       {
-        "title": "code repositroy permission management"
+        "title": "代碼庫許可權管理"
       },
       {
-        "title": "editor and related tool application setup"
+        "title": "編輯器和相關的工具申請"
       }
     ],
     "tags": ["all", "process"]
@@ -39,28 +35,25 @@
   {
     "title": "Path to Production",
     "priority": "High",
-    "description": "Path to Production in the code is just a description - [ ] for developers, and here's a more detailed explanation.",
     "subitems": [
       {
-        "title": "the process of golive's every step"
+        "title": "上線每一步的流程"
       },
       {
-        "title": "related key people"
+        "title": "相關的關鍵人"
       },
       {
-        "title": "the tools needed for each step"
+        "title": "每一步所需要的工具"
       },
       {
-        "title": "the process required for each step",
-        "description": "such as quality assurance people & process, and golive process"
+        "title": "每一步的產出"
       }
     ],
     "tags": ["all", "process"]
   },
   {
     "title": "Path to Roll Off",
-    "priority": "Low",
-    "description": "What do you need when you change a project？",
+    "priority": "High",
     "tags": ["all", "process"]
   }
 ]

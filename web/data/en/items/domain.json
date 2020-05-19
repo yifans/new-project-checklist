@@ -1,41 +1,43 @@
 [
   {
-    "title": "Business Vision",
+    "title": "業務願景",
     "priority": "High",
-    "description": "What are we doing, where are we going?",
-    "tags": ["all", "domain"]
-  },
-  {
-    "title": "Business",
-    "priority": "Medium",
-    "description": "",
+    "description": "我們在解決什麼業務問題，我們要達到怎樣的目標？",
     "subitems": [
       {
-        "title": "Requirements list",
-        "description": "Is there a list of requirements that are close to full? At a certain time (such as iterations), the demand should be stable."
+        "title": "業務目前的關鍵流程，每個步驟的參與者，需做的決策，關鍵KPI"
       },
       {
-        "title": "Requirements Management",
-        "description": "How does demand go from verbal to to-do list? Is there an irregular problem in the middle?"
-      },
-      {
-        "title": "How is the business changed?"
+        "title": "流程中的痛點，已經總結痛點後的詳細問題定義"
       }
     ],
     "tags": ["all", "domain"]
   },
   {
-    "title": "Cross-functional requirements",
+    "title": "業務需求",
     "priority": "High",
-    "description": "",
     "subitems": [
       {
-        "title": "Operational quality",
-        "description": "Quality observed during system operation, such as security and ease of use"
+        "title": "有沒有較全的待辦列表。在一定的時間（如反覆運算內），需求應該是穩定的"
       },
       {
-        "title": "Evolution quality",
-        "description": "Software system structure and quality related to the development process, such as software testability, maintainability, scalability, scalability, etc."
+        "title": "需求是如何從口頭到待辦列表的？中間是不是存在不規範的問題"
+      },
+      {
+        "title": "業務是如何進行變更的？"
+      }
+    ],
+    "tags": ["all", "domain"]
+  },
+  {
+    "title": "跨功能需求",
+    "priority": "High",
+    "subitems": [
+      {
+        "title": "運行品質。在系統運作時觀察到的品質，例如相應速度及易用性等"
+      },
+      {
+        "title": "用戶行為埋點數據收集的監測系統"
       }
     ],
     "tags": ["all", "domain"]

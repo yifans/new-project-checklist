@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Business Vision",
+    "priority": "High",
+    "description": "What are we doing, where are we going?",
+    "tags": ["all", "domain"]
+  },
+  {
+    "title": "Business",
+    "priority": "Medium",
+    "description": "",
+    "subitems": [
+      {
+        "title": "Requirements list",
+        "description": "Is there a list of requirements that are close to full? At a certain time (such as iterations), the demand should be stable."
+      },
+      {
+        "title": "Requirements Management",
+        "description": "How does demand go from verbal to to-do list? Is there an irregular problem in the middle?"
+      },
+      {
+        "title": "How is the business changed?"
+      }
+    ],
+    "tags": ["all", "domain"]
+  },
+  {
+    "title": "Cross-functional requirements",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "Operational quality",
+        "description": "Quality observed during system operation, such as security and ease of use"
+      },
+      {
+        "title": "Evolution quality",
+        "description": "Software system structure and quality related to the development process, such as software testability, maintainability, scalability, scalability, etc."
+      }
+    ],
+    "tags": ["all", "domain"]
+  }
+]

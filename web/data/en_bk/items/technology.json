@@ -1,0 +1,177 @@
+[
+  {
+    "title": "Technology Vision",
+    "priority": "High",
+    "description": "In terms of technology, what are we pursuing?",
+    "tools": [
+      "Lean Canvas"
+    ],
+    "documentation": [
+    ],
+    "tags": [
+      "all",
+      "vision"
+    ]
+  },
+  {
+    "title": "Documentation",
+    "priority": "High",
+    "description": "a good documentation should be versionable.",
+    "subitems": [
+      {
+        "title": "Path to Production",
+        "description": "aims to show the online process of the project in a visual way and optimize the bottleneck problems in the process."
+      },
+      {
+        "title": "golive and release diary",
+        "description": ""
+      },
+      {
+        "title": "other wikis and documentation",
+        "description": ""
+      },
+      {
+        "title": "Development specification",
+        "description": ""
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "Architecture",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "system architecture diagram",
+        "description": "such as C4Model mode"
+      },
+      {
+        "title": "existing technology stacks and their relationships",
+        "description": ""
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "Code base",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "setup guide",
+        "description": "Which is README distributed with the code."
+      },
+      {
+        "title": "architecture decision record",
+        "description": "in docs/ard directory."
+      },
+      {
+        "title": "editor configuration and code style specification",
+        "description": "Use tools like 'editorconfig' to standardize the code, and 'Lint' to analyze the code."
+      },
+      {
+        "title": "mode and style guide",
+        "description": "Integrate system architecture into the project with clear guidance such as 'clean architecture and style'"
+      },
+      {
+        "title": "version manager branch pattern.",
+        "description": "GitFlow or Feature Branch of Master Flow"
+      },
+      {
+        "title": "commit message style",
+        "description": "open source library style or business style"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "Testing",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "test strategy",
+        "description": "test layered, test pyramid"
+      },
+      {
+        "title": "test automation"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "Project Evolution",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "Technical risk",
+        "description": "Need to spike before project start"
+      },
+      {
+        "title": "future technology stack"
+      },
+      {
+        "title": "system evolution plan"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "Security",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "security standard",
+        "description": "Is safety more important, or is the experience more important?"
+      },
+      {
+        "title": "data encrypt in the code."
+      },
+      {
+        "title": "code security"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "Quality",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "project quality tracking"
+      },
+      {
+        "title": "visualization of code quality"
+      },
+      {
+        "title": "quality strategy"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  }
+]

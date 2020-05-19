@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Teammate",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "Who are you looking for each problem?"
+      },
+      {
+        "title": "Team members' technical stack and level"
+      },
+      {
+        "title": "How to bring everyone's skill level",
+        "description": "Coach, Pairing, Teach"
+      },
+      {
+        "title": "Project-independent technology, who can find 'entertainment' together?"
+      },
+      {
+        "title": "1 to 1 Meetings"
+      }
+    ],
+    "tags": [
+      "all",
+      "people"
+    ]
+  },
+  {
+    "title": "Stakeholders",
+    "priority": "Medium",
+    "description": "",
+    "subitems": [
+      {
+        "title": "Learn about each stakeholder (Level 1)",
+        "description": "As a developer, most of the time there is no direct communication with stakeholders."
+      },
+      {
+        "title": "Stay in communication with the stakeholders (Level 2)",
+        "description": "Proper communication can help the project to work better."
+      }
+    ],
+    "tags": [
+      "all",
+      "people"
+    ]
+  },
+  {
+    "title": "Cross-team collaboration",
+    "priority": "Medium",
+    "description": "相关的合作方有哪些，各自的接口人是谁？",
+    "subitems": [
+      {
+        "title": "What are the relevant partners and who are the respective interfaces?"
+      },
+      {
+        "title": "Team in same project or organizations."
+      }
+    ],
+    "tags": [
+      "all",
+      "people"
+    ]
+  },
+  {
+    "title": "Users",
+    "priority": "Low",
+    "description": "",
+    "subitems": [
+      {
+        "title": "Who is the user? Are we in direct contact with them?"
+      },
+      {
+        "title": "Feedback loop. How does a user's feedback become requirements?"
+      }
+    ],
+    "tags": [
+      "all",
+      "people"
+    ]
+  }
+]
