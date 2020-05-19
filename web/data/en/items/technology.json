@@ -19,7 +19,7 @@
         "title": "上線及發佈日記"
       },
       {
-        "title": "在technology上，我們有什麼長遠的目標和追求？(例如架構支持T級日數據吞吐，完全自動化上線流程等)"
+        "title": "團隊知識的沉澱，專案相關的 wiki 和文檔記錄"
       },
       {
         "title": "開發規範"
@@ -35,12 +35,10 @@
     "priority": "High",
     "subitems": [
       {
-        "title": "系統相關的架構圖，如 C4Model 方式描述",
-        "description": ""
+        "title": "系統相關的架構圖，如 C4Model 方式描述"
       },
       {
-        "title": "現有的技術棧及其關係",
-        "description": ""
+        "title": "現有的技術棧"
       },
       {
         "title": "架構決策記錄每次架構的改變。放置在代碼庫中"
